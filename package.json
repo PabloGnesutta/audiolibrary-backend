@@ -1,0 +1,28 @@
+{
+  "name": "audiolibrary-backend",
+  "version": "0.1.0",
+  "main": "index.audio-library.js",
+  "scripts": {
+    "start": "node ./src/index.audio-library.js",
+    "serve": "nodemon ./src/index.audio-library.js"
+  },
+  "author": "Pablo Gnesutta",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "aws-sdk": "^2.1148.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
